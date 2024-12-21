@@ -2,8 +2,5 @@
   "dependencies": {
     "glob": "^11.0.0",
     "serverless-go-plugin": "^2.4.1"
-  },
-  "devDependencies": {
-    "serverless-offline": "^14.3.3"
   }
 }

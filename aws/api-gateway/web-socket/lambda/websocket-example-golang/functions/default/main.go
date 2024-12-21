@@ -7,11 +7,10 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-func Handler(ctx context.Context, request events.APIGatewayWebsocketProxyRequest) (events.APIGatewayProxyResponse, error) {
+func Handler(ctx context.Context, request events.APIGatewayWebsocketProxyRequest) (events.APIGatewayWebsocketProxyRequest, error) {
 
-	return events.APIGatewayProxyResponse{
+	return events.APIGatewayWebsocketProxyRequest{
 		Body:              "You are accessing a $default wheel",
-		StatusCode:        200,
 		Headers:           request.Headers,
 		MultiValueHeaders: request.MultiValueHeaders,
 	}, nil

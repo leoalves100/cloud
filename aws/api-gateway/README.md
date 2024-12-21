@@ -14,8 +14,11 @@ Essa documentação visa ensinar como utilizar a API Gateway da AWS em modo Web 
 - [Serverless Framework](https://www.serverless.com/framework/docs)
   - [mthenw/serverless-go-plugin](https://github.com/mthenw/serverless-go-plugin)
   - [sean9keenan/serverless-go-plugin](https://github.com/sean9keenan/serverless-go-build) **Depreciado**
+  - [serverless-offline](https://github.com/dherault/serverless-offline)
+    - Não suporta novos runtime do golang <https://github.com/dherault/serverless-offline/issues/1152>
   - Exemplos
     - [WebSocket](https://www.serverless.com/framework/docs/providers/aws/events/websocket)
+    - [Golang function](https://www.serverless.com/blog/framework-example-golang-lambda-support)
 - AWS
   - [Criar função lambda em Golang](https://docs.aws.amazon.com/pt_br/lambda/latest/dg/lambda-golang.html)
   - [AWS Lambda GO](https://github.com/aws/aws-lambda-go)
