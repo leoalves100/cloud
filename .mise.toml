@@ -1,0 +1,4 @@
+[tools]
+terraform = '1.11.4'
+golang = '1.23.2'
+nodejs = '20.18.0'
